@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(184, 184, 184);
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#title{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+#inputText{
+    width:400px;
+    height: 50px;
+    border: 1px solid black;
+    outline: none; 
+    /* tıklanınca kutu içine girmez : outline : none; */
+    font-size: 25px;
+    vertical-align: middle; /*ortalar*/
+    border: 3px solid orange;
+    border-radius: 15px;
+}
+
+#addToDo{
+    height: 45px;
+    width: 80px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 25px;
+    background-color: green;
+    border-radius: 15px;
+    color: aliceblue;
+}
+
+#addToDo:active{
+    background-color: orange;
+    color: black;
+}
+
+#clearToDo{
+    height: 45px;
+    width: 100px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 25px;
+    background-color: red;
+    border-radius: 15px;
+    color: black;
+}
+#clearToDo:active{
+    background-color: black;
+    color: white;
+}
+
+.paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    font-size: 35px;
+    text-transform: capitalize ; /* baş harfi büyük olur.*/
+    color: purple;
+}
+.to-dos{
+    margin-top: 25px;
+}
